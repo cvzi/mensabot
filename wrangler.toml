@@ -1,0 +1,8 @@
+name = "mensabot-cloudflare"
+main = "src/index.js"
+compatibility_date = "2022-10-21"
+kv_namespaces = [
+    { binding = "MENSA_HTTP_CACHE", id = "", preview_id = "" },
+    { binding = "MENSA_SUBSCRIPTIONS", id = "", preview_id = "" },
+    { binding = "MENSA_STATUS", id = "", preview_id = "" },
+]
